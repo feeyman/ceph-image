@@ -25,8 +25,10 @@ RUN source /root/.bashrc \
     && pyenv global 3.8.16 \
     && rm -rf /root/.pyenv/cache/Python-3.6.15.tar.xz \
     && rm -rf /root/.pyenv/cache/Python-3.8.16.tar.xz \
-    && pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple \
-    && pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn \
+    #&& pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple \
+    && pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ \
+    #&& pip config set install.trusted-host https://pypi.tuna.tsinghua.edu.cn \
+    pip config set install.trusted-host https://mirrors.aliyun.com/pypi \
     && pip install pip setuptools wheel Cython IPy boto boto3 xmltodict jwt prettytable --upgrade \
     && nvm install 12.20.0 \
     && npm config set registry https://registry.npmmirror.com
