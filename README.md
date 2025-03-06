@@ -24,6 +24,7 @@
 
 - CentOS 8.4.2106（`docker.io/library/centos:8.4.2105`）
 - CentOS 8.5.2111（`docker.io/roboxes/centos8:4.3.14`）
+- CentOS 9 Stream (`quay.io/centos/centos:stream9`)
 
 需要注意的是，由于 Docker Hub 中的 CentOS 官方并没有提供 CentOS 8.5.2111 的镜像，所以这里 CentOS 8.5.2111 的镜像来源于第三方。
 
@@ -34,11 +35,13 @@
 - Pacific
 - Quincy
 - Reef
+- Squid
 
 经过测试的版本信息为：
 
 - v16.2.15
 - v17.2.7
 - v18.2.4
+- v19.2.1
 
 ---

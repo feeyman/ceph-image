@@ -24,6 +24,7 @@ The currently supported base environments for generating Docker images are:
 
 - CentOS 8.4.2106 (`docker.io/library/centos:8.4.2105`)
 - CentOS 8.5.2111 (`docker.io/roboxes/centos8:4.3.14`)
+- CentOS 9 Stream (`quay.io/centos/centos:stream9`)
 
 Please note that since the official CentOS in Docker Hub does not provide an image for CentOS 8.5.2111, the CentOS 8.5.2111 image here comes from a third party.
 
@@ -34,11 +35,13 @@ The currently supported Ceph versions are:
 - Pacific
 - Quincy
 - Reef
+- Squid
 
 Tested versions are:
 
 - v16.2.15
 - v17.2.7
 - v18.2.4
+- v19.2.1
 
 ---
