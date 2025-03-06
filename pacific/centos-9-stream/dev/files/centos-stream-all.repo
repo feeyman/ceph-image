@@ -1,0 +1,206 @@
+[CentOS-9-Stream-BaseOS]
+name=CentOS-9-Stream - BaseOS - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/BaseOS/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/BaseOS/$basearch/os/
+enabled=1
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-BaseOS-DebugInfo]
+name=CentOS-9-Stream - BaseOS-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/BaseOS/$basearch/debug/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/$basearch/debug/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/BaseOS/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-BaseOS-Source]
+name=CentOS-9-Stream - BaseOS-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/BaseOS/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/source/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/BaseOS/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-AppStream]
+name=CentOS-9-Stream - AppStream - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/AppStream/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/AppStream/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/AppStream/$basearch/os/
+enabled=1
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-AppStream-DebugInfo]
+name=CentOS-9-Stream - AppStream-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/AppStream/$basearch/debug/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/AppStream/$basearch/debug/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/AppStream/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-AppStream-Source]
+name=CentOS-9-Stream - AppStream-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/AppStream/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/AppStream/source/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/AppStream/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-CRB]
+name=CentOS-9-Stream - CRB - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/CRB/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/CRB/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/CRB/$basearch/os/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-CRB-DebugInfo]
+name=CentOS-9-Stream - CRB-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/CRB/$basearch/debug/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/CRB/$basearch/debug/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/CRB/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-CRB-Source]
+name=CentOS-9-Stream - CRB-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/CRB/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/CRB/source/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/CRB/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-HighAvailability]
+name=CentOS-9-Stream - HighAvailability - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/HighAvailability/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/HighAvailability/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/HighAvailability/$basearch/os/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-HighAvailability-DebugInfo]
+name=CentOS-9-Stream - HighAvailability-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/HighAvailability/$basearch/debug/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/HighAvailability/$basearch/debug/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/HighAvailability/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-HighAvailability-Source]
+name=CentOS-9-Stream - HighAvailability-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/HighAvailability/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/HighAvailability/source/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/HighAvailability/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-NFV]
+name=CentOS-9-Stream - NFV - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/NFV/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/NFV/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/NFV/$basearch/os/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-NFV-DebugInfo]
+name=CentOS-9-Stream - NFV-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/NFV/$basearch/debug/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/NFV/$basearch/debug/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/NFV/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-NFV-Source]
+name=CentOS-9-Stream - NFV-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/NFV/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/NFV/source/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/NFV/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-RT]
+name=CentOS-9-Stream - RT - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/RT/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/RT/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/RT/$basearch/os/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-RT-DebugInfo]
+name=CentOS-9-Stream - RT-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/RT/$basearch/debug/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/RT/$basearch/debug/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/RT/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-RT-Source]
+name=CentOS-9-Stream - RT-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/RT/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/RT/source/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/RT/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-ResilientStorage]
+name=CentOS-9-Stream - ResilientStorage - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/ResilientStorage/$basearch/os/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/ResilientStorage/$basearch/os/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/ResilientStorage/$basearch/os/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-ResilientStorage-DebugInfo]
+name=CentOS-9-Stream - ResilientStorage-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/ResilientStorage/$basearch/debug/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/ResilientStorage/$basearch/debug/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/ResilientStorage/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-ResilientStorage-Source]
+name=CentOS-9-Stream - ResilientStorage-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/9-stream/ResilientStorage/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/ResilientStorage/source/tree/
+        https://mirrors.ustc.edu.cn/centos-stream/9-stream/ResilientStorage/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-Extras-Common]
+name=CentOS-9-Stream - Extras-Common - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/SIGs/9-stream/extras/$basearch/extras-common/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/SIGs/9-stream/extras/$basearch/extras-common/
+        https://mirrors.ustc.edu.cn/centos-stream/SIGs/9-stream/extras/$basearch/extras-common/
+enabled=1
+gpgcheck=0
+priority=1
+
+[CentOS-9-Stream-Extras-Common-Source]
+name=CentOS-9-Stream - Extras-Common-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/centos-stream/SIGs/9-stream/extras/source/extras-common/
+        https://mirrors.tuna.tsinghua.edu.cn/centos-stream/SIGs/9-stream/extras/source/extras-common/
+        https://mirrors.ustc.edu.cn/centos-stream/SIGs/9-stream/extras/source/extras-common/
+enabled=0
+gpgcheck=0
+priority=1
