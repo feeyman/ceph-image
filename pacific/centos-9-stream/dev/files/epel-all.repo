@@ -1,0 +1,135 @@
+
+[EPEL-Cisco-OpenH264]
+name=CentOS-9-EPEL - EPEL-Cisco-OpenH264 - fedoraproject
+baseurl=https://codecs.fedoraproject.org/openh264/epel/$releasever/$basearch/os/
+enabled=1
+gpgcheck=0
+priority=1
+metadata_expire=14d
+skip_if_unavailable=True
+
+[EPEL-Cisco-OpenH264-DebugInfo]
+name=CentOS-9-EPEL - EPEL-Cisco-OpenH264-DebugInfo - fedoraproject
+baseurl=https://codecs.fedoraproject.org/openh264/epel/$releasever/$basearch/debug/tree/
+enabled=0
+gpgcheck=0
+priority=1
+metadata_expire=14d
+skip_if_unavailable=True
+
+[EPEL-Cisco-OpenH264-Source]
+name=CentOS-9-EPEL - EPEL-Cisco-OpenH264-Source - fedoraproject
+baseurl=https://codecs.fedoraproject.org/openh264/epel/$releasever/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+metadata_expire=14d
+skip_if_unavailable=True
+
+[EPEL-Next-Testing]
+name=CentOS-9-EPEL - EPEL-Next-Testing - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/testing/next/$releasever/Everything/$basearch/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/testing/next/$releasever/Everything/$basearch/
+        https://mirrors.ustc.edu.cn/epel/testing/next/$releasever/Everything/$basearch/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Next-Testing-DebugInfo]
+name=CentOS-9-EPEL - EPEL-Next-Testing-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/testing/next/$releasever/Everything/$basearch/debug/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/testing/next/$releasever/Everything/$basearch/debug/
+        https://mirrors.ustc.edu.cn/epel/testing/next/$releasever/Everything/$basearch/debug/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Next-Testing-Source]
+name=CentOS-9-EPEL - EPEL-Next-Testing-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/testing/next/$releasever/Everything/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/testing/next/$releasever/Everything/source/tree/
+        https://mirrors.ustc.edu.cn/epel/testing/next/$releasever/Everything/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Next]
+name=CentOS-9-EPEL - EPEL-Next - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/next/$releasever/Everything/$basearch/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/next/$releasever/Everything/$basearch/
+        https://mirrors.ustc.edu.cn/epel/next/$releasever/Everything/$basearch/
+enabled=1
+gpgcheck=0
+priority=1
+
+[EPEL-Next-DebugInfo]
+name=CentOS-9-EPEL - EPEL-Next-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/next/$releasever/Everything/$basearch/debug/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/next/$releasever/Everything/$basearch/debug/
+        https://mirrors.ustc.edu.cn/epel/next/$releasever/Everything/$basearch/debug/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Next-Source]
+name=CentOS-9-EPEL - EPEL-Next-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/next/$releasever/Everything/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/next/$releasever/Everything/source/tree/
+        https://mirrors.ustc.edu.cn/epel/next/$releasever/Everything/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Testing]
+name=CentOS-9-EPEL - EPEL-Testing - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/testing/$releasever/Everything/$basearch/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/testing/$releasever/Everything/$basearch/
+        https://mirrors.ustc.edu.cn/epel/testing/$releasever/Everything/$basearch/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Testing-DebugInfo]
+name=CentOS-9-EPEL - EPEL-Testing-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/testing/$releasever/Everything/$basearch/debug/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/testing/$releasever/Everything/$basearch/debug/
+        https://mirrors.ustc.edu.cn/epel/testing/$releasever/Everything/$basearch/debug/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Testing-Source]
+name=CentOS-9-EPEL - EPEL-Testing-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/testing/$releasever/Everything/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/testing/$releasever/Everything/source/tree/
+        https://mirrors.ustc.edu.cn/epel/testing/$releasever/Everything/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL]
+name=CentOS-9-EPEL - EPEL - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/$releasever/Everything/$basearch/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/$releasever/Everything/$basearch/
+        https://mirrors.ustc.edu.cn/epel/$releasever/Everything/$basearch/
+enabled=1
+gpgcheck=0
+priority=1
+
+[EPEL-DebugInfo]
+name=CentOS-9-EPEL - EPEL-DebugInfo - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/$releasever/Everything/$basearch/debug/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/$releasever/Everything/$basearch/debug/
+        https://mirrors.ustc.edu.cn/epel/$releasever/Everything/$basearch/debug/
+enabled=0
+gpgcheck=0
+priority=1
+
+[EPEL-Source]
+name=CentOS-9-EPEL - EPEL-Source - aliyun,tsinghua,ustc
+baseurl=https://mirrors.aliyun.com/epel/$releasever/Everything/source/tree/
+        https://mirrors.tuna.tsinghua.edu.cn/epel/$releasever/Everything/source/tree/
+        https://mirrors.ustc.edu.cn/epel/$releasever/Everything/source/tree/
+enabled=0
+gpgcheck=0
+priority=1
